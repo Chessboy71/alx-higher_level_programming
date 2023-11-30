@@ -6,5 +6,5 @@ if (__name__ == "__main__"):
     print ("{} arguments:".format(len(sys.argv) - 1))
     for c, arg in enumerate(sys.argv):
         if (c > 0):
-            print ("{} : {}".format(c, arg))
+            print ("{}: {}".format(c, arg))
 
