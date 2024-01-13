@@ -2,7 +2,7 @@
 
 """ class that defines a rectangle """
 
-class: 
+class Rectangle: 
     """the rectangle representation"""
     pass
 
