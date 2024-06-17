@@ -1,4 +1,4 @@
-#!/usr/bin/python3
-for i in range(ord('a'), ord('z') + 1):
-    if chr(i) not in ['e', 'q']:
-        print('{}'.format(chr(i)), end='')
+#!/usr/bin/bash
+for i in range(ord('a'), ord('z')):
+    if (chr(i) != 'q' and chr(i) != 'e'):
+        print(chr(i), end="")
