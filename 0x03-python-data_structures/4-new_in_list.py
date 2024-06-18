@@ -6,5 +6,5 @@ def new_in_list(my_list, idx, element):
     elif idx >= len(my_list):
         return newlist
     else:
-        newlist = newlist[:idx] + [element] + newlist[idx:]
+        newlist = newlist[:idx] + [element] + my_list[idx:]
         return newlist
