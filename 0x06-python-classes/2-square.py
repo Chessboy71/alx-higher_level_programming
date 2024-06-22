@@ -1,25 +1,20 @@
 #!/usr/bin/python3
-
-"""class that defines a square"""
+"""
+    This is a file for a class Declaration names square
+    """
 
 
 class Square:
+    """ This class defines a square,
+        it is pretty useful if you need to learn geometry
+    """
 
-    """ initiation function with a private size instance"""
-
-    def __init__(self, size=0):
-        """Initialize a new Square.
-
-        Args:
-            size (int): The size of the new square.
-        """
-        """
-        Raisign errors if the value is not correct
-        """
-
-        if not type(size) is int:
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
-
-        self.__size = size
+    def __init__(self, size=0) -> int:
+        try:
+            if size < 0:
+                raise (ValueError)
+            self.__size = size
+        except TypeError:
+            print("size must be an integer")
+        except ValueError:
+            print("size must be >= 0")

@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-
-"""class that defines a square"""
+"""
+    This is a file for a class Declaration names square
+    """
 
 
 class Square:
-
-    """ initiation function with a private size instance"""
+    """ This class defines a square,
+        it is pretty useful if you need to learn geometry
+    """
 
     def __init__(self, size):
         self.__size = size

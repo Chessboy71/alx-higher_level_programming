@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-
-"""class that defines a square"""
+"""_summary_
+        This file contains a class that has nothing in it called square
+    """
 
 
 class Square:
-    """the square representation"""
+    """ A class that defines a square, For now nothing is in it
+        We'll be working on it more
+        """
     pass
